@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a45dd23a.css",
-    "main.js": "/static/js/main.d1a26bb7.js",
-    "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
-    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
-    "static/media/card-bg.png": "/static/media/card-bg.e84d7be586b313c34d66.png",
-    "static/media/Logo.svg": "/static/media/Logo.6bf212f2f0c635f3712a4c1b4d9fc73f.svg",
-    "index.html": "/index.html",
-    "main.a45dd23a.css.map": "/static/css/main.a45dd23a.css.map",
-    "main.d1a26bb7.js.map": "/static/js/main.d1a26bb7.js.map"
+    "main.css": "/FollowersApp/static/css/main.dfa7c408.css",
+    "main.js": "/FollowersApp/static/js/main.8bac5893.js",
+    "static/media/Montserrat-SemiBold.ttf": "/FollowersApp/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-Medium.ttf": "/FollowersApp/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/card-bg.png": "/FollowersApp/static/media/card-bg.e84d7be586b313c34d66.png",
+    "static/media/Logo.svg": "/FollowersApp/static/media/Logo.6bf212f2f0c635f3712a4c1b4d9fc73f.svg",
+    "index.html": "/FollowersApp/index.html",
+    "main.dfa7c408.css.map": "/FollowersApp/static/css/main.dfa7c408.css.map",
+    "main.8bac5893.js.map": "/FollowersApp/static/js/main.8bac5893.js.map"
   },
   "entrypoints": [
-    "static/css/main.a45dd23a.css",
-    "static/js/main.d1a26bb7.js"
+    "static/css/main.dfa7c408.css",
+    "static/js/main.8bac5893.js"
   ]
 }
