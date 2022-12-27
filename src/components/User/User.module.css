@@ -1,0 +1,106 @@
+.Card {
+    width: 454px;
+    min-height: 600px;
+    text-align: center;
+    background-image: url('../../img/card-bg.png'), linear-gradient(114.99deg,
+            #471ca9 -0.99%,
+            #5736a3 54.28%,
+            #4b2a99 78.99%);
+    background-repeat: no-repeat;
+    background-position: 52px 34px, center center;
+    box-shadow: -3px 8px 24px rgba(0, 0, 0, 0.23);
+    border-radius: 24px;
+}
+
+.Logo {
+    text-align: left;
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 86px;
+}
+
+.User {
+    position: relative;
+    top: 165px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.Line {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #ebd8ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06), inset 0px -2px 4px #ae7be3,
+        inset 0px 4px 3px #fbf8ff;
+}
+
+.UserAvatar {
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    width: 92px;
+    height: 92px;
+    box-shadow: rgb(0 0 0 / 6%) 0px 5.11111px 5.11111px, rgb(174 123 227) 0px -2.55556px 5.11111px inset, rgb(251 248 255) 0px 5.11111px 3.83333px inset;
+    border-radius: 50%;
+    background-image: radial-gradient(rgb(174, 123, 227), rgb(251, 248, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.UserImage {
+    object-fit: cover;
+    object-position: top;
+    width: 72px;
+    height: 72px;
+    background: #5736A3;
+    border-radius: 50%;
+
+}
+
+.UserText {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 24px;
+    line-height: calc(29/24);
+    text-transform: uppercase;
+    color: #EBD8FF;
+}
+
+.UserText:last-of-type {
+    margin-bottom: 32px;
+}
+
+.Button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    width: 226px;
+    height: 56px;
+    background: #EBD8FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border: none;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(24/20);
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 48px;
+}
+
+.Active {
+    composes: Button;
+    background-color: #5CD3A8;
+
+}

@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+/* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -12,4 +12,46 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'),
+    url('./fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: medium;
+  font-family: 'Montserrat';
+  src: local('Montserrat'),
+    url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  width: 100%;
+  min-height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
